@@ -6,7 +6,6 @@ Dockerfile for setting up a Rackspace Cloud Files/Swift backend for Docker regis
 Build: docker build -rm -t swift-registry .
 
 Use:
-
 ```
   docker run -d \
   -e SETTINGS_FLAVOR=swift \ 
