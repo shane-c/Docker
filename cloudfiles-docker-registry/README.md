@@ -8,7 +8,7 @@ Build: docker build -rm -t swift-registry .
 Use:
 
 docker run -d \
--e SETTINGS_FLAVOR=swift \
+-e SETTINGS_FLAVOR=swift \ 
 -e OS_CONTAINER=Cloud Files container name \
 -e OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/ \
 -e STORAGE_PATH=/ \
