@@ -7,6 +7,7 @@ Build: docker build -rm -t swift-registry .
 
 Use:
 
+<ode>
   docker run -d \
   -e SETTINGS_FLAVOR=swift \ 
   -e OS_CONTAINER=Cloud Files container name \
@@ -19,3 +20,4 @@ Use:
   -e SEARCH_BACKEND=sqlalchemy \
   -p 5000:5000 \
   swift-registry
+</code>
