@@ -1,4 +1,4 @@
-Docker
+Cloud Files/Swift backend for Docker registry
 ======
 
 Dockerfile for setting up a Rackspace Cloud Files/Swift backend for Docker registry. 
